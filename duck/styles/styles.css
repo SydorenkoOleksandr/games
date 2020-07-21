@@ -1,0 +1,50 @@
+img {
+    max-width: 100%;
+  }
+  /*Set a fixed size for width and height and in an absolute position*/
+  #duck {
+    margin: 50px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+  }
+  /*Style for the Score container*/
+  .scoreContainer {
+    background-color: black;
+    width: 15%;
+    height: 15%;
+    color: #ffffff;
+    top: 0%;
+    right: 0%;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+  }
+  #score-text, #timer {
+    font-size: 1.5em;
+  }
+  #score-counter, #timer-counter {
+    font-size: 3.1em;
+    font-weight: bold;
+    color: #06e515;
+  }
+
+  .timer-container{
+    background-color: black;
+    width: 15%;
+    height: 15%;
+    color: #ffffff;
+    top: 15%;
+    right: 0%;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+  }
